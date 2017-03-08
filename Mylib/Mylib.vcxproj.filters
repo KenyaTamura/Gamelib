@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Mylib">
+      <UniqueIdentifier>{2523d2d9-cb78-4f0e-bf1c-f9ef45854424}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Mylib\FileIO">
+      <UniqueIdentifier>{53246a03-e980-4096-b71e-474d2ce08bf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Mylib\Graphics">
+      <UniqueIdentifier>{553a2ef0-e168-4cfb-8cc3-d356a3459d08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Mylib\Input">
+      <UniqueIdentifier>{6cdca90d-623e-42e7-bc28-28afbf292c6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Mylib\Sound">
+      <UniqueIdentifier>{647105b0-5efa-48a8-bb37-df7fb0d79e7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Mylib\XML">
+      <UniqueIdentifier>{d020a2a7-452c-4db3-a915-e29271325ac7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Mylib\Window">
+      <UniqueIdentifier>{656cd937-be3e-4c4d-905a-63b4dabbb476}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Mylib">
+      <UniqueIdentifier>{658258fa-1268-4d33-95bb-114b0a252e30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Mylib\FileIO">
+      <UniqueIdentifier>{92156bf3-c8cf-461f-8953-30fb8d12b8cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Mylib\Graphics">
+      <UniqueIdentifier>{d8787d51-446a-4fed-8dca-b0b15542aa19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Mylib\Input">
+      <UniqueIdentifier>{15229217-7a86-4625-8340-6e7cead843e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Mylib\Sound">
+      <UniqueIdentifier>{e66ef198-71b6-4a76-9107-29bdfe229ffe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Mylib\Window">
+      <UniqueIdentifier>{a45994fd-a967-48bc-9a11-b33f58878cf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Mylib\XML">
+      <UniqueIdentifier>{3145ac01-61de-4d9d-b9f6-827362bb206d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Mylib\XML\Attribute.cpp">
+      <Filter>ソース ファイル\Mylib\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="Mylib\XML\Document.cpp">
+      <Filter>ソース ファイル\Mylib\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="Mylib\XML\Element.cpp">
+      <Filter>ソース ファイル\Mylib\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="Mylib\XML\Tag.cpp">
+      <Filter>ソース ファイル\Mylib\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="Mylib\Framework.cpp">
+      <Filter>ソース ファイル\Mylib</Filter>
+    </ClCompile>
+    <ClCompile Include="Mylib\Manager.cpp">
+      <Filter>ソース ファイル\Mylib</Filter>
+    </ClCompile>
+    <ClCompile Include="Mylib\Window\Window.cpp">
+      <Filter>ソース ファイル\Mylib\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Mylib\Sound\Manager.cpp">
+      <Filter>ソース ファイル\Mylib\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Mylib\Sound\Sound_impl.cpp">
+      <Filter>ソース ファイル\Mylib\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Mylib\Sound\Wave.cpp">
+      <Filter>ソース ファイル\Mylib\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Mylib\Sound\Wave_impl.cpp">
+      <Filter>ソース ファイル\Mylib\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Mylib\Input\Input_impl.cpp">
+      <Filter>ソース ファイル\Mylib\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Mylib\Input\Keyboard.cpp">
+      <Filter>ソース ファイル\Mylib\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Mylib\Input\Maneger.cpp">
+      <Filter>ソース ファイル\Mylib\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Mylib\Input\Mouse.cpp">
+      <Filter>ソース ファイル\Mylib\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Mylib\Input\PS4.cpp">
+      <Filter>ソース ファイル\Mylib\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Mylib\Input\PS4_impl.cpp">
+      <Filter>ソース ファイル\Mylib\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Mylib\Graphics\Graphics_impl.cpp">
+      <Filter>ソース ファイル\Mylib\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Mylib\Graphics\Manager.cpp">
+      <Filter>ソース ファイル\Mylib\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Mylib\Graphics\Texture.cpp">
+      <Filter>ソース ファイル\Mylib\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Mylib\Graphics\Texture_impl.cpp">
+      <Filter>ソース ファイル\Mylib\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Mylib\FileIO\FileIO_impl.cpp">
+      <Filter>ソース ファイル\Mylib\FileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="Mylib\FileIO\Manager.cpp">
+      <Filter>ソース ファイル\Mylib\FileIO</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Mylib\XML\Attribute.h">
+      <Filter>ヘッダー ファイル\Mylib\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="Mylib\XML\Document.h">
+      <Filter>ヘッダー ファイル\Mylib\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="Mylib\XML\Element.h">
+      <Filter>ヘッダー ファイル\Mylib\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="Mylib\XML\Tag.h">
+      <Filter>ヘッダー ファイル\Mylib\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="Mylib\Framework.h">
+      <Filter>ヘッダー ファイル\Mylib</Filter>
+    </ClInclude>
+    <ClInclude Include="Mylib\Manager.h">
+      <Filter>ヘッダー ファイル\Mylib</Filter>
+    </ClInclude>
+    <ClInclude Include="Mylib\Window\Window.h">
+      <Filter>ヘッダー ファイル\Mylib\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Mylib\Sound\Manager.h">
+      <Filter>ヘッダー ファイル\Mylib\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Mylib\Sound\Sound_impl.h">
+      <Filter>ヘッダー ファイル\Mylib\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Mylib\Sound\Wave.h">
+      <Filter>ヘッダー ファイル\Mylib\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Mylib\Sound\Wave_impl.h">
+      <Filter>ヘッダー ファイル\Mylib\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Mylib\Input\Input_impl.h">
+      <Filter>ヘッダー ファイル\Mylib\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Mylib\Input\Keyboard.h">
+      <Filter>ヘッダー ファイル\Mylib\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Mylib\Input\Manager.h">
+      <Filter>ヘッダー ファイル\Mylib\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Mylib\Input\Mouse.h">
+      <Filter>ヘッダー ファイル\Mylib\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Mylib\Input\PS4.h">
+      <Filter>ヘッダー ファイル\Mylib\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Mylib\Input\PS4_impl.h">
+      <Filter>ヘッダー ファイル\Mylib\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Mylib\Graphics\Graphics_impl.h">
+      <Filter>ヘッダー ファイル\Mylib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Mylib\Graphics\Manager.h">
+      <Filter>ヘッダー ファイル\Mylib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Mylib\Graphics\Texture.h">
+      <Filter>ヘッダー ファイル\Mylib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Mylib\Graphics\Texture_impl.h">
+      <Filter>ヘッダー ファイル\Mylib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Mylib\FileIO\FileIO_impl.h">
+      <Filter>ヘッダー ファイル\Mylib\FileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="Mylib\FileIO\Manager.h">
+      <Filter>ヘッダー ファイル\Mylib\FileIO</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
